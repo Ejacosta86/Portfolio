@@ -47,7 +47,7 @@ section ul li {
     color: navy;
 }
 
-p, p ul li {
+p {
     flex-direction: column;
     text-align: center;
     padding-left: 50px;
