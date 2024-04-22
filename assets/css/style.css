@@ -6,6 +6,7 @@
 
 body{
     background-color: whitesmoke;
+    margin: 0%;
 }
 
 .header{
@@ -18,6 +19,15 @@ body{
 .header h1{
     display: inline-block;
     font-size: 40px;
+}
+
+.banner {
+height: 900px;
+width: 100%;
+margin-bottom: 25px;
+background-image: 
+background-size: cover;
+background-position: center;
 }
 
 section {
@@ -38,24 +48,61 @@ section ul li {
 }
 
 .about, .work, .contact {
-    float: center;
+    display: flex;
     align-content: center;
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 80px;
     height: 300px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
     color: navy;
 }
 
-p {
-    flex-direction: column;
-    text-align: center;
-    padding-left: 50px;
+.about h1, .work h1, .contact h1 {
+ width: 20%;
+ display: flex;
+ border-right: 4px navy solid;
+ }
+
+.work p {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+display: flex;
+flex-direction: row;
+padding-left: 80%;
+flex-wrap: wrap;
+align-content: center;
 }
 
-.contact ul li {
-    display: inline-block;
+img {
+    border: 3px
+    border-color whitesmoke;
+    border-style: solid;
+    object-fit: cover;
+    margin: 5px;
+    align-content:center;   
+}
+
+img {
+
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+   }
+
+.about p, .work p, .contact p {
+    width: 80%;
+    text-align: center;
+    padding-left: 50px;
+    display: flex;
+}
+
+
+
+.contact ul {
+    display: flex;
     margin-left: 30px;
     flex-direction: row;
     font-style: underline;
+    list-style: none;
+    justify-content: space-between;
 }
