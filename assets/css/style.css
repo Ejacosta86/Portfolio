@@ -52,7 +52,6 @@ section ul li {
     align-content: center;
     margin-bottom: 20px;
     padding: 80px;
-    height: 300px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
     color: navy;
 }
@@ -72,22 +71,25 @@ flex-wrap: wrap;
 align-content: center;
 }
 
-img {
-    border: 3px
-    border-color whitesmoke;
-    border-style: solid;
-    object-fit: cover;
-    margin: 5px;
-    align-content:center;   
+
+
+.top {
+   
+    margin-left: 40px;
+   
 }
 
-img {
+.bottom {
+    
+    margin-left: 40px;
+}
 
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-   }
+.big-picture {
+width: 100%;
+height: 300px;
+}
+
+
 
 .about p, .work p, .contact p {
     width: 80%;
@@ -102,7 +104,11 @@ img {
     display: flex;
     margin-left: 30px;
     flex-direction: row;
-    font-style: underline;
     list-style: none;
     justify-content: space-between;
+}
+
+.contact ul li {
+margin-left: 15px;
+text-decoration: underline;
 }
