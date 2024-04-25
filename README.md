@@ -10,7 +10,7 @@ This was a challenge to make a decent working portfolio website from scratch to 
 ## Website
 https://ejacosta86.github.io/Portfolio/
 
-## Contributing
+## Preview
 
 ![example website](./assets/images/websitescreens.png)
 
