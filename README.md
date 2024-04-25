@@ -12,7 +12,7 @@ https://ejacosta86.github.io/Portfolio/
 
 ## Contributing
 
-![example website](/Portfolio/assets/images/websitescreens.png)
+![example website](./assets/images/websitescreens.png)
 
 ## License
 
